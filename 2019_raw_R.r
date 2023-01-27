@@ -34,3 +34,5 @@ str(raw_2019)
 
 raw_2019$Country <- as.factor(raw_2019$Country)
 raw_2019$Region <- as.factor(raw_2019$Region)
+
+write.csv(raw_2019,"C:\\Users\\cdodd\\OneDrive - Jewish Federation of Greater Houston\\Documents\\GitHub\\raw_2019_final.csv")
